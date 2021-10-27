@@ -20,6 +20,10 @@
 
 @media (max-width: 550px) {
   .navbar-link {
-    margin: 0 0.7rem;
+    margin: 0 0.6rem;
+  }
+
+  .navbar-link span {
+    font-size: 1.7rem;
   }
 }
