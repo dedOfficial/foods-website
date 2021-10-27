@@ -1,0 +1,11 @@
+@media (max-width: 1000px) {
+  .section-1-icons i {
+    font-size: 25rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-1-icons i {
+    font-size: 20rem;
+  }
+}

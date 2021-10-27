@@ -1,0 +1,21 @@
+/* Section 2 */
+@media (max-width: 1400px) {
+  .section-2 {
+    height: auto;
+    padding: 10rem 0 12rem 0;
+  }
+
+  .cards-container {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .cards-container {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 5rem;
+  }
+}

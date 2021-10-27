@@ -6,6 +6,12 @@
 @import url('./blocks/section-3.css');
 @import url('./blocks/footer.css');
 @import url('./blocks/navbar.css');
+@import url('./blocks/media/section-title.css');
+@import url('./blocks/media/section-1.css');
+@import url('./blocks/media/section-2.css');
+@import url('./blocks/media/section-3.css');
+@import url('./blocks/media/footer.css');
+@import url('./blocks/media/navbar.css');
 
 /* Common Styles */
 * {
@@ -21,4 +27,15 @@
 /* Make 1 rem equal to 10 pixels from 16 pixels */
 html {
   font-size: 62.5%;
+}
+
+@media (max-width: 1400px) {
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 550px) {
+  html {
+    font-size: 40%;
+  }
 }

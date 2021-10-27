@@ -1,0 +1,13 @@
+@media (max-width: 1000px) {
+  .section-title {
+    font-size: 9rem;
+    margin: 0 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .section-title {
+    font-size: 7rem;
+    margin: 0 10rem;
+  }
+}

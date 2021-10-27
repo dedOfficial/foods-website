@@ -1,0 +1,25 @@
+@media (max-width: 900px) {
+  .navbar-link {
+    margin: 2rem;
+  }
+
+  .navbar-link i {
+    font-size: 4rem;
+  }
+
+  .navbar-link span {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .menu {
+    left: 2rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .navbar-link {
+    margin: 0 0.7rem;
+  }
+}
